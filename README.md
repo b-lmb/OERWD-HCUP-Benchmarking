@@ -16,21 +16,23 @@ This repository contains the analysis code and data processing scripts for the m
 ## Requirements
 
 - Required packages:
-library(broom)
-library(car)
-library(cowplot)
-library(data.table)
-library(dplyr)
-library(ggplot2)
-library(Kendall)
-library(magrittr)
-library(purrr)
-library(readr)
-library(stringr)
-library(survey)
-library(sf)
-library(tidyr)
+```
+library(broom)  
+library(car)  
+library(cowplot)  
+library(data.table)  
+library(dplyr)  
+library(ggplot2)  
+library(Kendall)  
+library(magrittr)  
+library(purrr)  
+library(readr)  
+library(stringr)  
+library(survey)  
+library(sf)  
+library(tidyr)  
 library(usmap)
+```
 
 ## Data Access
 The datasets used in this analysis (OERWD and HCUP NIS) are not included in this repository due to licensing restrictions. Access to these datasets can be requested through:
